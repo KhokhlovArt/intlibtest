@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
 
-        <service android:enabled="true" android:name="com.mks.intlib.InitializeService"></service>
+        <!--<service android:enabled="true" android:name="com.mks.intlib.InitializeService"></service>-->
         <service android:name="com.mks.intlib.FCMMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />

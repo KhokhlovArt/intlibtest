@@ -31,6 +31,6 @@ dependencies {
 
     //implementation files('libs/IntLib.jar')
 
-    implementation files('libs/classes6.jar')
+    implementation files('libs/IntLib.jar')
 }
 apply plugin: 'com.google.gms.google-services'
